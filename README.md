@@ -23,6 +23,6 @@ There is a planned implemanation of [Away3D](https://github.com/openfl/away3d) u
 - Amount of View3Ds allowed limited to `FlxG.stage.stage3Ds.length` (preformance dependent in some cases). Use `Flx3DUtil.is3DAvailable();` to check if a 3D Instance is available.
 
 ## Requirements 🟡
-
-- The Away3D OpenFL Library; ` openfl install away3d`
+- git (to install the latest version of Away3D as HaxeLib is outdated)
+- The Away3D OpenFL Library; ` openfl git away3d https://github.com/openfl/away3d.git`
 - Adding the Library to your Project.xml; `<haxelib name="away3d"/>`
